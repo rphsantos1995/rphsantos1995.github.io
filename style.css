@@ -1,0 +1,19 @@
+.name{
+    background-color: #E2E8C0;
+    font-family: sans-serif;
+    color: darkred;
+    font-size: 20px;
+  }
+body{ 
+    background-color:#9E0031;
+  }
+ h3 {
+      color: darkgray;
+      font-style: oblique;
+      padding: 5px;
+      margin: 20px;
+      border-style: outset;
+      border-width:initial;
+      display: inline-block;
+      background-color:#3F303F;
+  }
