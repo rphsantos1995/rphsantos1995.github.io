@@ -1,11 +1,12 @@
 .name{
-    background-color: #E2E8C0;
+    background-color: black;
     font-family: sans-serif;
-    color: darkred;
+    color: white;
     font-size: 20px;
   }
 body{ 
-    background-color:#9E0031;
+    background-color:white;
+    text-align: center;
   }
  h3 {
       color: darkgray;
@@ -17,4 +18,8 @@ body{
       display: inline-block;
       background-color:#3F303F;
   }
+
+.personal-img { 
   
+} 
+
