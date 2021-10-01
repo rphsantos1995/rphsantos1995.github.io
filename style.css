@@ -21,7 +21,6 @@ body {
 }
 
 .text-muted { 
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +42,6 @@ body {
 }
 
 .container2 {
-  background-color:white;
   display: flex;
   padding: 70px;
   border: 2px solid purple;
@@ -55,6 +53,7 @@ body {
   margin-top: 0%;
   border-radius: 8px;
   flex-direction: row;
+  opacity: 0.9;
 
 }
 
@@ -82,14 +81,14 @@ body {
   margin-top: -40px;
   margin-bottom: -20px;
 } 
+
 .pic3 {
   padding-right: 30px;
   margin-top: -40px;
   margin-bottom: -20px;
 }
 
-.pic4{
-  
+.pic4 {
   margin-top: -40px;
   margin-bottom: -20px;
 }
@@ -108,13 +107,12 @@ body {
   background-color:white;
 }
 
-.footer{
+.footer {
   display: flex;
   border: 2px solid orchid;
   align-items: center;
   justify-content: space-between;
   height: min-content;
-  
 }
 
 .personal-img {
@@ -125,21 +123,20 @@ body {
   height: min-content;
   
 }
-.personal-img:hover{
+
+.personal-img:hover {
   color: #6D4B11;
 }
 
-.personal-img img{
+.personal-img img {
   margin-top: 7px;
   border: 2px solid whitesmoke;
   border-radius: 20px;
   height: 60px;
   width: 40px;
-  
-  
 }
 
-.aboutme{
+.aboutme {
   padding-left: 4%;
   display: flex;
   text-align: left;
@@ -148,14 +145,15 @@ body {
 }
 
 .aboutme h4 {
-  
   text-align: left;
   font-size: 1.2em;
- 
 }
 
 .aboutme p {
-  
   font-size: 0.8em;
   font-style: oblique;
+}
+
+.container-fluid:hover { 
+  opacity: 1;
 }
